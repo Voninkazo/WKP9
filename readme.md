@@ -17,3 +17,6 @@ There is a lot of data in a film object, use whatever attribute you need.
 Feel free to add some beautiful styling to your website when you're done fetching and sorting the data.
 
 Good luck 💻
+
+ In this project, I managed to generate the data from the url(data source) and set some css in the design. But there is a little bit of problem because I have an error in the console which I couldn'manage to find out why it is there. I hope the explanation durig the correctio will help me solve it. Thank you so much Loic. It was fun, first time of fetching exercise practice.
+ Overall, it was quite sraightforwrad.
