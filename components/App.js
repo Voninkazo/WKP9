@@ -1,10 +1,8 @@
 import React from 'react';
+import Movies from './Movies';
 
-function App() {
-    return (
-        <h2>Hello</h2>
-    )
+function App(){
+        return (<Movies />)
 }
-
 
 export default App;

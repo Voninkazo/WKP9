@@ -18,7 +18,8 @@
     "homepage": "https://github.com/Voninkazo/WKP9#readme",
     "dependencies": {
         "react": "^16.14.0",
-        "react-dom": "^16.14.0"
+        "react-dom": "^16.14.0",
+        "style.css": "^1.0.0"
     },
     "browserslist": [
         "last 1 chrome versions"
