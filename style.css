@@ -35,6 +35,11 @@ header>p {
     font-weight: 600;
 }
 
+div.container {
+    max-width: 1114px;
+    margin: auto;
+}
+
 h2 {
     text-align: center;
     margin: 0;

@@ -28387,7 +28387,9 @@ function Movies() {
   (0, _react.useEffect)(() => {
     fetchMovies();
   }, []);
-  return /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("header", null, /*#__PURE__*/_react.default.createElement("h1", null, "Studio Ghibli Movies"), /*#__PURE__*/_react.default.createElement("p", null, "Ranked from best, to worst")), /*#__PURE__*/_react.default.createElement("div", {
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "container"
+  }, /*#__PURE__*/_react.default.createElement("header", null, /*#__PURE__*/_react.default.createElement("h1", null, "Studio Ghibli Movies"), /*#__PURE__*/_react.default.createElement("p", null, "Ranked from best, to worst")), /*#__PURE__*/_react.default.createElement("div", {
     className: "wrapper"
   }, allMovies.map(movie => {
     return /*#__PURE__*/_react.default.createElement("div", {
@@ -28461,7 +28463,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "57615" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53716" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

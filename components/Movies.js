@@ -16,7 +16,7 @@ function Movies() {
     }, []);
 
     return(
-       <div>
+       <div className="container">
            <header>
                 <h1>Studio Ghibli Movies</h1>
                 <p>Ranked from best, to worst</p>
