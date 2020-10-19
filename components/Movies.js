@@ -23,7 +23,8 @@ function Movies() {
             </header>
             <div className="wrapper">
            {
-             allMovies.map(movie => {
+             allMovies.sort((a,b) => b.rt_score - a.rt_score)
+             .map(movie => {
               return(
                 <div className="movies" key={movie.id}>
                     <div className="heading">
